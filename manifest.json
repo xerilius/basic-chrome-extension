@@ -1,0 +1,20 @@
+
+{   // Required
+    "manifest_version": 2,
+    "name": "Vampire Mode",
+    "version": "1.0",
+
+    // Optional - Recommended
+    "description": "Adds a dark background to all webpages and changes font color",
+    // Optional - Recommended
+    "icons": {},
+
+
+    // Tells browser to load a script into pages that matches the specified pattern
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js" : ["vampiremode.js"]
+        }
+    ]
+}
