@@ -1,6 +1,6 @@
 ## Basic Chrome Extension
-<p> Changes the color of the browser background and font styling
+Changes the color of the browser background and font styling
 ### Before
-![Homepage](static/normal_homepage.png)
+![Homepage](static/normal_homepage.PNG)
 ### After
-![DK Homepage](static/darkmode_homepage.png)
+![DK Homepage](static/darkmode_homepage.PNG)
